@@ -1,0 +1,25 @@
+﻿.entrada{
+    animation: entrada .6s ease-out forwards;
+}
+
+@keyframes entrada{
+    0%{
+        transform: translateX(-20%);
+    }
+    100%{
+        transform:translateX(0%);
+    }
+}
+
+.salida{
+    animation: salida .3s ease-out forwards;
+}
+
+@keyframes salida{
+    0%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(20%);
+    }
+}

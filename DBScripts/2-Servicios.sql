@@ -1,0 +1,22 @@
+USE [GESTORPASS]
+GO
+
+/****** Object:  Table [dbo].[Servicios]    Script Date: 4/4/2023 11:45:45 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[Servicios](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Servicio] [varchar](50) NULL,
+	[Imagen] [varchar](1000) NULL,
+	[UrlCambio] [varchar](1000) NULL,
+ CONSTRAINT [PK_Servicios] PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
