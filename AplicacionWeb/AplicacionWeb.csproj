@@ -77,6 +77,7 @@
     <Content Include="Contenido\Logo1.png" />
     <Content Include="Default.aspx" />
     <Content Include="Error.aspx" />
+    <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Login.aspx" />
     <Content Include="MyServices.aspx" />

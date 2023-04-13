@@ -12,3 +12,17 @@ V0.012 : Añadidas las paginas de registro, login, error y la pagina helper para
 Añadida la función de enviar correos electrónicos a la hora de registrarse, para validar el email ingresado.
 
 ______________________________________
+
+
+11/04/2023 09:00 (AR)
+
+V1.0 : Lanzamiento de la app https://savepass.somee.com/
+
+
+______________________________________
+
+13/04/2023 10:27 (AR)
+
+V1.0.1 : Actualización de la descrición sobre el funcionamiento de la aplicación
+
+______________________________________
